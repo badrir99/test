@@ -12,4 +12,4 @@ COPY --from=BUILD_IMAGE /usr/src/app/target/rest-service-complete-0.0.1-SNAPSHOT
 #VOLUME /tmp
 EXPOSE 8081
 ENTRYPOINT ["java", "-jar", "-Dspring.profiles.active=default", "/usr/src/app/app.jar"]
-#ENTRYPOINT echo "Hello world"
+#ENTRYPOINT echo "Hello world "
